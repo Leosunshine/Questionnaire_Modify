@@ -49,9 +49,7 @@
                 <img style="height: 40px;" id="Leo_pagedown" src="../images/right.png" /> </td>
             <td style="width:20%;">
                 <img style="height: 40px; display: none;" id="Leo_checkup" src="../images/signin.png"  /></td>
-            <td style="width:20%;">
-                <button style="height: 40px;;" id="Leo_All" value="全选A" />
-            </td>  
+           
             </tr>           
         </table>
     </div>       
@@ -90,7 +88,7 @@
     </div>
   </div>
 </div>
-   
+ <button style="height: 40px;width:70px;" id="Leo_All" value="全选A">全选A</button>
 <script type="text/javascript">
     var spinner = null;
     var target = document.getElementById('Leo_question_v2');
