@@ -8,7 +8,7 @@ $time_start = microtime_float();
 /**
 * 
 */
-class ServerInfo{ 
+class ServerInfo{
     //服务器参数
     public $S = array(
         'YourIP', //你的IP
